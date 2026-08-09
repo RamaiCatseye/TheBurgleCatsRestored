@@ -324,8 +324,6 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1.5)
 
 };gdjs.MenuCode.asyncCallback27695092 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.MenuCode.localVariables);
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "bgm_001.ogg", 1, true, 60, 1);
-}
 gdjs.MenuCode.localVariables.length = 0;
 }
 gdjs.MenuCode.idToCallbackMap.set(27695092, gdjs.MenuCode.asyncCallback27695092);
