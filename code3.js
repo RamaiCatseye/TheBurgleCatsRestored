@@ -35,6 +35,8 @@ gdjs.ReloadCode.GDManorIconObjects1= [];
 gdjs.ReloadCode.GDManorIconObjects2= [];
 gdjs.ReloadCode.GDscenechangeObjects1= [];
 gdjs.ReloadCode.GDscenechangeObjects2= [];
+gdjs.ReloadCode.GDInputUserObjects1= [];
+gdjs.ReloadCode.GDInputUserObjects2= [];
 
 
 gdjs.ReloadCode.eventsList0 = function(runtimeScene) {
@@ -90,6 +92,8 @@ gdjs.ReloadCode.GDManorIconObjects1.length = 0;
 gdjs.ReloadCode.GDManorIconObjects2.length = 0;
 gdjs.ReloadCode.GDscenechangeObjects1.length = 0;
 gdjs.ReloadCode.GDscenechangeObjects2.length = 0;
+gdjs.ReloadCode.GDInputUserObjects1.length = 0;
+gdjs.ReloadCode.GDInputUserObjects2.length = 0;
 
 gdjs.ReloadCode.eventsList0(runtimeScene);
 gdjs.ReloadCode.GDFadeObjects1.length = 0;
@@ -126,6 +130,8 @@ gdjs.ReloadCode.GDManorIconObjects1.length = 0;
 gdjs.ReloadCode.GDManorIconObjects2.length = 0;
 gdjs.ReloadCode.GDscenechangeObjects1.length = 0;
 gdjs.ReloadCode.GDscenechangeObjects2.length = 0;
+gdjs.ReloadCode.GDInputUserObjects1.length = 0;
+gdjs.ReloadCode.GDInputUserObjects2.length = 0;
 
 
 return;
