@@ -37,6 +37,12 @@ gdjs.ReloadCode.GDscenechangeObjects1= [];
 gdjs.ReloadCode.GDscenechangeObjects2= [];
 gdjs.ReloadCode.GDInputUserObjects1= [];
 gdjs.ReloadCode.GDInputUserObjects2= [];
+gdjs.ReloadCode.GDObjectObjects1= [];
+gdjs.ReloadCode.GDObjectObjects2= [];
+gdjs.ReloadCode.GDCardObjects1= [];
+gdjs.ReloadCode.GDCardObjects2= [];
+gdjs.ReloadCode.GDcost_9595indObjects1= [];
+gdjs.ReloadCode.GDcost_9595indObjects2= [];
 
 
 gdjs.ReloadCode.eventsList0 = function(runtimeScene) {
@@ -94,6 +100,12 @@ gdjs.ReloadCode.GDscenechangeObjects1.length = 0;
 gdjs.ReloadCode.GDscenechangeObjects2.length = 0;
 gdjs.ReloadCode.GDInputUserObjects1.length = 0;
 gdjs.ReloadCode.GDInputUserObjects2.length = 0;
+gdjs.ReloadCode.GDObjectObjects1.length = 0;
+gdjs.ReloadCode.GDObjectObjects2.length = 0;
+gdjs.ReloadCode.GDCardObjects1.length = 0;
+gdjs.ReloadCode.GDCardObjects2.length = 0;
+gdjs.ReloadCode.GDcost_9595indObjects1.length = 0;
+gdjs.ReloadCode.GDcost_9595indObjects2.length = 0;
 
 gdjs.ReloadCode.eventsList0(runtimeScene);
 gdjs.ReloadCode.GDFadeObjects1.length = 0;
@@ -132,6 +144,12 @@ gdjs.ReloadCode.GDscenechangeObjects1.length = 0;
 gdjs.ReloadCode.GDscenechangeObjects2.length = 0;
 gdjs.ReloadCode.GDInputUserObjects1.length = 0;
 gdjs.ReloadCode.GDInputUserObjects2.length = 0;
+gdjs.ReloadCode.GDObjectObjects1.length = 0;
+gdjs.ReloadCode.GDObjectObjects2.length = 0;
+gdjs.ReloadCode.GDCardObjects1.length = 0;
+gdjs.ReloadCode.GDCardObjects2.length = 0;
+gdjs.ReloadCode.GDcost_9595indObjects1.length = 0;
+gdjs.ReloadCode.GDcost_9595indObjects2.length = 0;
 
 
 return;
