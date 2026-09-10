@@ -90,7 +90,6 @@
 	<script src="fontfaceobserver-font-manager/fontfaceobserver.js" crossorigin="anonymous"></script>
 	<script src="fontfaceobserver-font-manager/fontfaceobserver-font-manager.js" crossorigin="anonymous"></script>
 	<script src="Extensions/AdvancedWindow/electron-advancedwindowtools.js" crossorigin="anonymous"></script>
-	<script src="Extensions/DraggableBehavior/draggableruntimebehavior.js" crossorigin="anonymous"></script>
 	<script src="Extensions/LinkedObjects/linkedobjects.js" crossorigin="anonymous"></script>
 	<script src="Extensions/Multiplayer/messageManager.js" crossorigin="anonymous"></script>
 	<script src="Extensions/Multiplayer/multiplayerVariablesManager.js" crossorigin="anonymous"></script>
@@ -128,6 +127,7 @@
 	<script src="code1.js" crossorigin="anonymous"></script>
 	<script src="code2.js" crossorigin="anonymous"></script>
 	<script src="code3.js" crossorigin="anonymous"></script>
+	<script src="code4.js" crossorigin="anonymous"></script>
 	<script src="data.js" crossorigin="anonymous"></script>
 
 
@@ -139,7 +139,7 @@
 
     (function() {
         //Initialization
-        var game = new gdjs.RuntimeGame(gdjs.projectData, {});
+        var game = new gdjs.RuntimeGame(gdjs.projectData, gdjs.runtimeGameOptions);
 
         //Create a renderer
         game.getRenderer().createStandardCanvas(document.body);
