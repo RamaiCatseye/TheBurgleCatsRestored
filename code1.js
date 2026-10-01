@@ -23016,7 +23016,7 @@ gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDTYOKObjects3Objects = Hashtable.newFr
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects2Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects2});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects2Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects2});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDEventManorObjects2Objects = Hashtable.newFrom({"EventManor": gdjs.HubCode.GDEventManorObjects2});
-gdjs.HubCode.userFunc0x41df318 = function GDJSInlineCode(runtimeScene) {
+gdjs.HubCode.userFunc0x4e80fd8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const day = new Date().getDay();
 runtimeScene.getVariables().get("Day").setNumber(day);
@@ -23026,7 +23026,7 @@ gdjs.HubCode.eventsList113 = function(runtimeScene) {
 {
 
 
-gdjs.HubCode.userFunc0x41df318(runtimeScene);
+gdjs.HubCode.userFunc0x4e80fd8(runtimeScene);
 
 }
 
@@ -24297,7 +24297,7 @@ gdjs.HubCode.eventsList124(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.HubCode.userFunc0x5988750 = function GDJSInlineCode(runtimeScene) {
+};gdjs.HubCode.userFunc0x38902f8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const day = new Date().getDay();
 runtimeScene.getVariables().get("Day").setNumber(day);
@@ -24307,7 +24307,7 @@ gdjs.HubCode.eventsList126 = function(runtimeScene) {
 {
 
 
-gdjs.HubCode.userFunc0x5988750(runtimeScene);
+gdjs.HubCode.userFunc0x38902f8(runtimeScene);
 
 }
 
@@ -24681,7 +24681,7 @@ if (isConditionTrue_0) {
 };gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects3Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects3});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects3Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects3});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDRandomObjects3Objects = Hashtable.newFrom({"Random": gdjs.HubCode.GDRandomObjects3});
-gdjs.HubCode.userFunc0x4c110b8 = function GDJSInlineCode(runtimeScene) {
+gdjs.HubCode.userFunc0x10687c8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // GDevelop JS Event: VALID → THEN SHIFT (SAFE + FIXED)
@@ -24847,7 +24847,7 @@ gdjs.HubCode.eventsList131 = function(runtimeScene) {
 {
 
 
-gdjs.HubCode.userFunc0x4c110b8(runtimeScene);
+gdjs.HubCode.userFunc0x10687c8(runtimeScene);
 
 }
 
@@ -24905,7 +24905,7 @@ gdjs.copyArray(runtimeScene.getObjects("InputText"), gdjs.HubCode.GDInputTextObj
 };gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects4Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects4});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects4Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects4});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDLoadManorObjects4Objects = Hashtable.newFrom({"LoadManor": gdjs.HubCode.GDLoadManorObjects4});
-gdjs.HubCode.userFunc0x5300fc0 = function GDJSInlineCode(runtimeScene) {
+gdjs.HubCode.userFunc0x1aa9010 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // GDevelop JS Event: Dual Code Loader (Old + New, FIXED USERNAME & EVENT VARS, NEW MODE 0-5)
@@ -25445,7 +25445,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.HubCode.userFunc0x5300fc0(runtimeScene);
+gdjs.HubCode.userFunc0x1aa9010(runtimeScene);
 
 }
 
@@ -33740,7 +33740,7 @@ gdjs.HubCode.eventsList176(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.HubCode.userFunc0x447dbb8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.HubCode.userFunc0x2b60090 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // GDevelop JS Event: Generate Encrypted Layout Code + Username
@@ -35239,7 +35239,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.HubCode.userFunc0x447dbb8(runtimeScene);
+gdjs.HubCode.userFunc0x2b60090(runtimeScene);
 
 }
 
@@ -35459,7 +35459,7 @@ gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDSaveObjects3Objects = Hashtable.newFr
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects3Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects3});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects3Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects3});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDSaveObjects3Objects = Hashtable.newFrom({"Save": gdjs.HubCode.GDSaveObjects3});
-gdjs.HubCode.userFunc0x43bb2b8 = function GDJSInlineCode(runtimeScene) {
+gdjs.HubCode.userFunc0x9bbe00 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // Copy DisplayText object string to clipboard
@@ -35540,7 +35540,7 @@ gdjs.HubCode.eventsList180 = function(runtimeScene) {
 {
 
 
-gdjs.HubCode.userFunc0x43bb2b8(runtimeScene);
+gdjs.HubCode.userFunc0x9bbe00(runtimeScene);
 
 }
 
@@ -35548,7 +35548,7 @@ gdjs.HubCode.userFunc0x43bb2b8(runtimeScene);
 };gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects3Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects3});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects3Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects3});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDSaveObjects3Objects = Hashtable.newFrom({"Save": gdjs.HubCode.GDSaveObjects3});
-gdjs.HubCode.userFunc0x21dd170 = function GDJSInlineCode(runtimeScene) {
+gdjs.HubCode.userFunc0x8c33a70 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // GDevelop JS Event: Generate Encrypted Layout Code + Username
@@ -36597,7 +36597,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.HubCode.userFunc0x21dd170(runtimeScene);
+gdjs.HubCode.userFunc0x8c33a70(runtimeScene);
 
 }
 
@@ -57700,6 +57700,31 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(1), 
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("info"), gdjs.HubCode.GDinfoObjects4);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.HubCode.GDinfoObjects4.length;i<l;++i) {
+    if ( gdjs.HubCode.GDinfoObjects4[i].getBehavior("Animation").getAnimationName() == "TKhelp" ) {
+        isConditionTrue_0 = true;
+        gdjs.HubCode.GDinfoObjects4[k] = gdjs.HubCode.GDinfoObjects4[i];
+        ++k;
+    }
+}
+gdjs.HubCode.GDinfoObjects4.length = k;
+if (isConditionTrue_0) {
+/* Reuse gdjs.HubCode.GDinfoObjects4 */
+{for(var i = 0, len = gdjs.HubCode.GDinfoObjects4.length ;i < len;++i) {
+    gdjs.HubCode.GDinfoObjects4[i].hide();
+}
+}
+}
+
+}
+
+
+{
+
 
 let isConditionTrue_0 = false;
 {
@@ -61824,6 +61849,31 @@ gdjs.HubCode.eventsList511(runtimeScene);} //End of subevents
 
 
 };gdjs.HubCode.eventsList513 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("info"), gdjs.HubCode.GDinfoObjects4);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.HubCode.GDinfoObjects4.length;i<l;++i) {
+    if ( gdjs.HubCode.GDinfoObjects4[i].getBehavior("Animation").getAnimationName() == "TKhelp" ) {
+        isConditionTrue_0 = true;
+        gdjs.HubCode.GDinfoObjects4[k] = gdjs.HubCode.GDinfoObjects4[i];
+        ++k;
+    }
+}
+gdjs.HubCode.GDinfoObjects4.length = k;
+if (isConditionTrue_0) {
+/* Reuse gdjs.HubCode.GDinfoObjects4 */
+{for(var i = 0, len = gdjs.HubCode.GDinfoObjects4.length ;i < len;++i) {
+    gdjs.HubCode.GDinfoObjects4[i].hide(false);
+}
+}
+}
+
+}
+
 
 {
 
