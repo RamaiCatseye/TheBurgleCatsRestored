@@ -11209,10 +11209,22 @@ gdjs.copyArray(runtimeScene.getObjects("LoadManor"), gdjs.HubCode.GDLoadManorObj
 
 {
 
+gdjs.copyArray(runtimeScene.getObjects("buttonpress"), gdjs.HubCode.GDbuttonpressObjects2);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.HubCode.GDbuttonpressObjects2.length;i<l;++i) {
+    if ( gdjs.HubCode.GDbuttonpressObjects2[i].getVariableNumber(gdjs.HubCode.GDbuttonpressObjects2[i].getVariables().getFromIndex(0)) == 0 ) {
+        isConditionTrue_0 = true;
+        gdjs.HubCode.GDbuttonpressObjects2[k] = gdjs.HubCode.GDbuttonpressObjects2[i];
+        ++k;
+    }
+}
+gdjs.HubCode.GDbuttonpressObjects2.length = k;
+}
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Accessories"), gdjs.HubCode.GDAccessoriesObjects2);
 gdjs.copyArray(runtimeScene.getObjects("BGM"), gdjs.HubCode.GDBGMObjects2);
@@ -11398,6 +11410,16 @@ for (var i = 0, k = 0, l = gdjs.HubCode.GDFind_9595Objects2.length;i<l;++i) {
 gdjs.HubCode.GDFind_9595Objects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.HubCode.GDbuttonpressObjects2.length;i<l;++i) {
+    if ( gdjs.HubCode.GDbuttonpressObjects2[i].getVariableNumber(gdjs.HubCode.GDbuttonpressObjects2[i].getVariables().getFromIndex(0)) == 0 ) {
+        isConditionTrue_0 = true;
+        gdjs.HubCode.GDbuttonpressObjects2[k] = gdjs.HubCode.GDbuttonpressObjects2[i];
+        ++k;
+    }
+}
+gdjs.HubCode.GDbuttonpressObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -11433,6 +11455,7 @@ gdjs.HubCode.GDInputTextObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(4).getAsNumber() == -1);
+}
 }
 }
 }
@@ -12083,6 +12106,16 @@ for (var i = 0, k = 0, l = gdjs.HubCode.GDFind_9595Objects2.length;i<l;++i) {
 gdjs.HubCode.GDFind_9595Objects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.HubCode.GDbuttonpressObjects2.length;i<l;++i) {
+    if ( gdjs.HubCode.GDbuttonpressObjects2[i].getVariableNumber(gdjs.HubCode.GDbuttonpressObjects2[i].getVariables().getFromIndex(0)) == 0 ) {
+        isConditionTrue_0 = true;
+        gdjs.HubCode.GDbuttonpressObjects2[k] = gdjs.HubCode.GDbuttonpressObjects2[i];
+        ++k;
+    }
+}
+gdjs.HubCode.GDbuttonpressObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -12362,6 +12395,7 @@ gdjs.HubCode.GDInputTextObjects2.length = k;
 }
 }
 }
+}
 if (isConditionTrue_0) {
 /* Reuse gdjs.HubCode.GDAccessoriesObjects2 */
 /* Reuse gdjs.HubCode.GDBGMObjects2 */
@@ -12575,6 +12609,16 @@ for (var i = 0, k = 0, l = gdjs.HubCode.GDFind_9595Objects2.length;i<l;++i) {
 gdjs.HubCode.GDFind_9595Objects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.HubCode.GDbuttonpressObjects2.length;i<l;++i) {
+    if ( gdjs.HubCode.GDbuttonpressObjects2[i].getVariableNumber(gdjs.HubCode.GDbuttonpressObjects2[i].getVariables().getFromIndex(0)) == 0 ) {
+        isConditionTrue_0 = true;
+        gdjs.HubCode.GDbuttonpressObjects2[k] = gdjs.HubCode.GDbuttonpressObjects2[i];
+        ++k;
+    }
+}
+gdjs.HubCode.GDbuttonpressObjects2.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects2Objects, runtimeScene, true, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -12604,6 +12648,7 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene));
+}
 }
 }
 }
@@ -13338,6 +13383,16 @@ for (var i = 0, k = 0, l = gdjs.HubCode.GDSFXObjects3.length;i<l;++i) {
 gdjs.HubCode.GDSFXObjects3.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.HubCode.GDbuttonpressObjects3.length;i<l;++i) {
+    if ( gdjs.HubCode.GDbuttonpressObjects3[i].getVariableNumber(gdjs.HubCode.GDbuttonpressObjects3[i].getVariables().getFromIndex(0)) == 0 ) {
+        isConditionTrue_0 = true;
+        gdjs.HubCode.GDbuttonpressObjects3[k] = gdjs.HubCode.GDbuttonpressObjects3[i];
+        ++k;
+    }
+}
+gdjs.HubCode.GDbuttonpressObjects3.length = k;
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects3Objects, gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDLoadManorObjects3ObjectsGDgdjs_9546HubCode_9546GDSaveObjects3ObjectsGDgdjs_9546HubCode_9546GDSaveUserObjects3ObjectsGDgdjs_9546HubCode_9546GDRandomObjects3ObjectsGDgdjs_9546HubCode_9546GDToCreateObjects3ObjectsGDgdjs_9546HubCode_9546GDToTicketObjects3ObjectsGDgdjs_9546HubCode_9546GDToBurgleObjects3ObjectsGDgdjs_9546HubCode_9546GDToHubObjects3ObjectsGDgdjs_9546HubCode_9546GDPasteObjects3ObjectsGDgdjs_9546HubCode_9546GDBurgle_95959595Objects3ObjectsGDgdjs_9546HubCode_9546GDTrashObjects3ObjectsGDgdjs_9546HubCode_9546GDUserManorObjects3ObjectsGDgdjs_9546HubCode_9546GDFind_95959595Objects3ObjectsGDgdjs_9546HubCode_9546GDEventManorObjects3ObjectsGDgdjs_9546HubCode_9546GDTYOKObjects3ObjectsGDgdjs_9546HubCode_9546GDinfoObjects3ObjectsGDgdjs_9546HubCode_9546GDclosehelpObjects3ObjectsGDgdjs_9546HubCode_9546GDAccessoriesObjects3ObjectsGDgdjs_9546HubCode_9546GDChallengeBurgle_95959595Objects3ObjectsGDgdjs_9546HubCode_9546GDTrueTestObjects3ObjectsGDgdjs_9546HubCode_9546GDProfileObjects3ObjectsGDgdjs_9546HubCode_9546GDMultiplayerObjects3ObjectsGDgdjs_9546HubCode_9546GDPlayCPUObjects3ObjectsGDgdjs_9546HubCode_9546GDLobbiesObjects3ObjectsGDgdjs_9546HubCode_9546GDQuitLobbyObjects3ObjectsGDgdjs_9546HubCode_9546GDBurgleBattle_95959595Objects3ObjectsGDgdjs_9546HubCode_9546GDBGMObjects3ObjectsGDgdjs_9546HubCode_9546GDSFXObjects3Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -13568,6 +13623,7 @@ for (var i = 0, k = 0, l = gdjs.HubCode.GDSFXObjects3.length;i<l;++i) {
     }
 }
 gdjs.HubCode.GDSFXObjects3.length = k;
+}
 }
 }
 }
@@ -24401,7 +24457,7 @@ if (isConditionTrue_0) {
 };gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects2Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects2});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects2Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects2});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDEventManorObjects2Objects = Hashtable.newFrom({"EventManor": gdjs.HubCode.GDEventManorObjects2});
-gdjs.HubCode.userFunc0x1a78ac0 = function GDJSInlineCode(runtimeScene) {
+gdjs.HubCode.userFunc0x1180a90 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const day = new Date().getDay();
 runtimeScene.getVariables().get("Day").setNumber(day);
@@ -24433,7 +24489,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.HubCode.userFunc0x1a78ac0(runtimeScene);
+gdjs.HubCode.userFunc0x1180a90(runtimeScene);
 
 }
 
@@ -25703,7 +25759,7 @@ gdjs.HubCode.eventsList141(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.HubCode.userFunc0x5531178 = function GDJSInlineCode(runtimeScene) {
+};gdjs.HubCode.userFunc0x44fb4c8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const day = new Date().getDay();
 runtimeScene.getVariables().get("Day").setNumber(day);
@@ -25713,7 +25769,7 @@ gdjs.HubCode.eventsList143 = function(runtimeScene) {
 {
 
 
-gdjs.HubCode.userFunc0x5531178(runtimeScene);
+gdjs.HubCode.userFunc0x44fb4c8(runtimeScene);
 
 }
 
@@ -26111,7 +26167,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.HubCode.userFunc0x2296c08 = function GDJSInlineCode(runtimeScene) {
+};gdjs.HubCode.userFunc0xd7e4e60 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // GDevelop JS Event: VALID → THEN SHIFT (SAFE + FIXED)
@@ -26277,7 +26333,7 @@ gdjs.HubCode.eventsList149 = function(runtimeScene) {
 {
 
 
-gdjs.HubCode.userFunc0x2296c08(runtimeScene);
+gdjs.HubCode.userFunc0xd7e4e60(runtimeScene);
 
 }
 
@@ -26359,7 +26415,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.HubCode.userFunc0x1bd0d38 = function GDJSInlineCode(runtimeScene) {
+};gdjs.HubCode.userFunc0x3951c98 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // GDevelop JS Event: Dual Code Loader (Old + New, FIXED USERNAME & EVENT VARS, NEW MODE 0-5)
@@ -26923,7 +26979,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.HubCode.userFunc0x1bd0d38(runtimeScene);
+gdjs.HubCode.userFunc0x3951c98(runtimeScene);
 
 }
 
@@ -35301,7 +35357,7 @@ gdjs.HubCode.eventsList198(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.HubCode.userFunc0x4881eb0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.HubCode.userFunc0x2226560 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // GDevelop JS Event: Generate Encrypted Layout Code + Username
@@ -36800,7 +36856,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.HubCode.userFunc0x4881eb0(runtimeScene);
+gdjs.HubCode.userFunc0x2226560(runtimeScene);
 
 }
 
@@ -37044,7 +37100,7 @@ if (isConditionTrue_0) {
 };gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects3Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects3});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects3Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects3});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDSaveObjects3Objects = Hashtable.newFrom({"Save": gdjs.HubCode.GDSaveObjects3});
-gdjs.HubCode.userFunc0x4376cf8 = function GDJSInlineCode(runtimeScene) {
+gdjs.HubCode.userFunc0x1b61320 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // Copy DisplayText object string to clipboard
@@ -37147,7 +37203,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.HubCode.userFunc0x4376cf8(runtimeScene);
+gdjs.HubCode.userFunc0x1b61320(runtimeScene);
 
 }
 
@@ -37155,7 +37211,7 @@ gdjs.HubCode.userFunc0x4376cf8(runtimeScene);
 };gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects3Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects3});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects3Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects3});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDSaveObjects3Objects = Hashtable.newFrom({"Save": gdjs.HubCode.GDSaveObjects3});
-gdjs.HubCode.userFunc0x1c8fda0 = function GDJSInlineCode(runtimeScene) {
+gdjs.HubCode.userFunc0x13ed7c0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // GDevelop JS Event: Generate Encrypted Layout Code + Username
@@ -38226,7 +38282,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.HubCode.userFunc0x1c8fda0(runtimeScene);
+gdjs.HubCode.userFunc0x13ed7c0(runtimeScene);
 
 }
 
