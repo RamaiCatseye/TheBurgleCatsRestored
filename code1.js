@@ -7476,6 +7476,7 @@ if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Rank"), gdjs.HubCode.GDRankObjects1);
 gdjs.copyArray(runtimeScene.getObjects("RankBar2"), gdjs.HubCode.GDRankBar2Objects1);
 /* Reuse gdjs.HubCode.GDRankFillObjects1 */
+gdjs.copyArray(runtimeScene.getObjects("RankOutline"), gdjs.HubCode.GDRankOutlineObjects1);
 gdjs.copyArray(runtimeScene.getObjects("ToCreate"), gdjs.HubCode.GDToCreateObjects1);
 {for(var i = 0, len = gdjs.HubCode.GDToCreateObjects1.length ;i < len;++i) {
     gdjs.HubCode.GDToCreateObjects1[i].getBehavior("Animation").setAnimationName("locked");
@@ -7491,6 +7492,10 @@ gdjs.copyArray(runtimeScene.getObjects("ToCreate"), gdjs.HubCode.GDToCreateObjec
 }
 {for(var i = 0, len = gdjs.HubCode.GDRankBar2Objects1.length ;i < len;++i) {
     gdjs.HubCode.GDRankBar2Objects1[i].getBehavior("Animation").setAnimationName("Starter");
+}
+}
+{for(var i = 0, len = gdjs.HubCode.GDRankOutlineObjects1.length ;i < len;++i) {
+    gdjs.HubCode.GDRankOutlineObjects1[i].getBehavior("Animation").setAnimationName("starter");
 }
 }
 }
@@ -25585,7 +25590,7 @@ if (isConditionTrue_0) {
 };gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects2Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects2});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects2Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects2});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDEventManorObjects2Objects = Hashtable.newFrom({"EventManor": gdjs.HubCode.GDEventManorObjects2});
-gdjs.HubCode.userFunc0x4bb2a10 = function GDJSInlineCode(runtimeScene) {
+gdjs.HubCode.userFunc0x56ba940 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const day = new Date().getDay();
 runtimeScene.getVariables().get("Day").setNumber(day);
@@ -25622,7 +25627,7 @@ gdjs.copyArray(runtimeScene.getObjects("LoadManor"), gdjs.HubCode.GDLoadManorObj
 {
 
 
-gdjs.HubCode.userFunc0x4bb2a10(runtimeScene);
+gdjs.HubCode.userFunc0x56ba940(runtimeScene);
 
 }
 
@@ -26892,7 +26897,7 @@ gdjs.HubCode.eventsList143(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.HubCode.userFunc0x5bdbd08 = function GDJSInlineCode(runtimeScene) {
+};gdjs.HubCode.userFunc0x388ea58 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const day = new Date().getDay();
 runtimeScene.getVariables().get("Day").setNumber(day);
@@ -26902,7 +26907,7 @@ gdjs.HubCode.eventsList145 = function(runtimeScene) {
 {
 
 
-gdjs.HubCode.userFunc0x5bdbd08(runtimeScene);
+gdjs.HubCode.userFunc0x388ea58(runtimeScene);
 
 }
 
@@ -27300,7 +27305,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.HubCode.userFunc0x8950e78 = function GDJSInlineCode(runtimeScene) {
+};gdjs.HubCode.userFunc0x8b01ce0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // GDevelop JS Event: VALID → THEN SHIFT
@@ -27469,12 +27474,12 @@ gdjs.HubCode.eventsList151 = function(runtimeScene) {
 {
 
 
-gdjs.HubCode.userFunc0x8950e78(runtimeScene);
+gdjs.HubCode.userFunc0x8b01ce0(runtimeScene);
 
 }
 
 
-};gdjs.HubCode.userFunc0xd3e3ed0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.HubCode.userFunc0x35d6020 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // GDevelop JS Event: VALID → THEN SHIFT (SAFE + FIXED)
@@ -27640,7 +27645,7 @@ gdjs.HubCode.eventsList152 = function(runtimeScene) {
 {
 
 
-gdjs.HubCode.userFunc0xd3e3ed0(runtimeScene);
+gdjs.HubCode.userFunc0x35d6020(runtimeScene);
 
 }
 
@@ -27794,7 +27799,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.HubCode.userFunc0x4212250 = function GDJSInlineCode(runtimeScene) {
+};gdjs.HubCode.userFunc0x90eb740 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // GDevelop JS Event: Dual Code Loader (Old + New, FIXED USERNAME & EVENT VARS, NEW MODE 0-5)
@@ -28358,7 +28363,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.HubCode.userFunc0x4212250(runtimeScene);
+gdjs.HubCode.userFunc0x90eb740(runtimeScene);
 
 }
 
@@ -36746,7 +36751,7 @@ gdjs.HubCode.eventsList202(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.HubCode.userFunc0xdb143b8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.HubCode.userFunc0x2045de0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // GDevelop JS Event: Generate Encrypted Layout Code + Username
@@ -38245,7 +38250,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.HubCode.userFunc0xdb143b8(runtimeScene);
+gdjs.HubCode.userFunc0x2045de0(runtimeScene);
 
 }
 
@@ -38489,7 +38494,7 @@ if (isConditionTrue_0) {
 };gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects3Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects3});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects3Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects3});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDSaveObjects3Objects = Hashtable.newFrom({"Save": gdjs.HubCode.GDSaveObjects3});
-gdjs.HubCode.userFunc0x21f82a0 = function GDJSInlineCode(runtimeScene) {
+gdjs.HubCode.userFunc0xd00b330 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // Copy DisplayText object string to clipboard
@@ -38592,7 +38597,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.HubCode.userFunc0x21f82a0(runtimeScene);
+gdjs.HubCode.userFunc0xd00b330(runtimeScene);
 
 }
 
@@ -38600,7 +38605,7 @@ gdjs.HubCode.userFunc0x21f82a0(runtimeScene);
 };gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects3Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects3});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects3Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects3});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDSaveObjects3Objects = Hashtable.newFrom({"Save": gdjs.HubCode.GDSaveObjects3});
-gdjs.HubCode.userFunc0x649e168 = function GDJSInlineCode(runtimeScene) {
+gdjs.HubCode.userFunc0x3b5a890 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // GDevelop JS Event: Generate Encrypted Layout Code + Username
@@ -39671,7 +39676,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.HubCode.userFunc0x649e168(runtimeScene);
+gdjs.HubCode.userFunc0x3b5a890(runtimeScene);
 
 }
 

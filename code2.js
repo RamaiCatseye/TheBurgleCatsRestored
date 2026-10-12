@@ -37351,7 +37351,7 @@ gdjs.GameCode.eventsList345(runtimeScene);} //End of subevents
 
 
 };gdjs.GameCode.mapOfEmptyGDtrafficObjects = Hashtable.newFrom({"traffic": []});
-gdjs.GameCode.userFunc0x4fb9e40 = function GDJSInlineCode(runtimeScene) {
+gdjs.GameCode.userFunc0x9343218 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.getTimeManager().getTimer("traffic").setTime(4600);
 };
@@ -37360,7 +37360,7 @@ gdjs.GameCode.eventsList347 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x4fb9e40(runtimeScene);
+gdjs.GameCode.userFunc0x9343218(runtimeScene);
 
 }
 
@@ -168196,7 +168196,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25
 }
 
 
-};gdjs.GameCode.userFunc0xdadad00 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x8bbea88 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const source = runtimeScene.getObjects("TheirManor")[0];
 const text1 = runtimeScene.getObjects("beatmanortext1")[0];
@@ -168225,12 +168225,12 @@ gdjs.GameCode.eventsList2011 = function(runtimeScene, asyncObjectsList) {
 {
 
 
-gdjs.GameCode.userFunc0xdadad00(runtimeScene);
+gdjs.GameCode.userFunc0x8bbea88(runtimeScene);
 
 }
 
 
-};gdjs.GameCode.userFunc0x59ec440 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x1cf0488 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const source = runtimeScene.getObjects("TheirManor")[0];
 const text1 = runtimeScene.getObjects("beatmanortext1")[0];
@@ -168275,7 +168275,7 @@ gdjs.copyArray(runtimeScene.getObjects("TheirManor"), gdjs.GameCode.GDTheirManor
 {
 
 
-gdjs.GameCode.userFunc0x59ec440(runtimeScene);
+gdjs.GameCode.userFunc0x1cf0488(runtimeScene);
 
 }
 
@@ -497802,6 +497802,7 @@ if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Rank"), gdjs.GameCode.GDRankObjects2);
 gdjs.copyArray(runtimeScene.getObjects("RankBar2"), gdjs.GameCode.GDRankBar2Objects2);
 /* Reuse gdjs.GameCode.GDRankFillObjects2 */
+gdjs.copyArray(runtimeScene.getObjects("RankOutline"), gdjs.GameCode.GDRankOutlineObjects2);
 {for(var i = 0, len = gdjs.GameCode.GDRankObjects2.length ;i < len;++i) {
     gdjs.GameCode.GDRankObjects2[i].getBehavior("Animation").setAnimationName("Starter");
 }
@@ -497812,6 +497813,10 @@ gdjs.copyArray(runtimeScene.getObjects("RankBar2"), gdjs.GameCode.GDRankBar2Obje
 }
 {for(var i = 0, len = gdjs.GameCode.GDRankBar2Objects2.length ;i < len;++i) {
     gdjs.GameCode.GDRankBar2Objects2[i].getBehavior("Animation").setAnimationName("Starter");
+}
+}
+{for(var i = 0, len = gdjs.GameCode.GDRankOutlineObjects2.length ;i < len;++i) {
+    gdjs.GameCode.GDRankOutlineObjects2[i].getBehavior("Animation").setAnimationName("starter");
 }
 }
 }
@@ -498365,6 +498370,7 @@ if (isConditionTrue_0) {
 /* Reuse gdjs.GameCode.GDRankObjects4 */
 gdjs.copyArray(runtimeScene.getObjects("RankBar2"), gdjs.GameCode.GDRankBar2Objects4);
 gdjs.copyArray(runtimeScene.getObjects("RankFill"), gdjs.GameCode.GDRankFillObjects4);
+gdjs.copyArray(runtimeScene.getObjects("RankOutline"), gdjs.GameCode.GDRankOutlineObjects4);
 {for(var i = 0, len = gdjs.GameCode.GDRankObjects4.length ;i < len;++i) {
     gdjs.GameCode.GDRankObjects4[i].getBehavior("Animation").setAnimationName("Main");
 }
@@ -498375,6 +498381,10 @@ gdjs.copyArray(runtimeScene.getObjects("RankFill"), gdjs.GameCode.GDRankFillObje
 }
 {for(var i = 0, len = gdjs.GameCode.GDRankBar2Objects4.length ;i < len;++i) {
     gdjs.GameCode.GDRankBar2Objects4[i].getBehavior("Animation").setAnimationName("Norm");
+}
+}
+{for(var i = 0, len = gdjs.GameCode.GDRankOutlineObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDRankOutlineObjects4[i].getBehavior("Animation").setAnimationName("norm");
 }
 }
 }
