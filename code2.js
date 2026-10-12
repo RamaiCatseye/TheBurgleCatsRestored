@@ -37351,7 +37351,7 @@ gdjs.GameCode.eventsList345(runtimeScene);} //End of subevents
 
 
 };gdjs.GameCode.mapOfEmptyGDtrafficObjects = Hashtable.newFrom({"traffic": []});
-gdjs.GameCode.userFunc0x1d6de88 = function GDJSInlineCode(runtimeScene) {
+gdjs.GameCode.userFunc0x15e4d00 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.getTimeManager().getTimer("traffic").setTime(4600);
 };
@@ -37360,7 +37360,7 @@ gdjs.GameCode.eventsList347 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x1d6de88(runtimeScene);
+gdjs.GameCode.userFunc0x15e4d00(runtimeScene);
 
 }
 
@@ -168196,7 +168196,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25
 }
 
 
-};gdjs.GameCode.userFunc0x36c4af8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x46ed878 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const source = runtimeScene.getObjects("TheirManor")[0];
 const text1 = runtimeScene.getObjects("beatmanortext1")[0];
@@ -168225,12 +168225,12 @@ gdjs.GameCode.eventsList2011 = function(runtimeScene, asyncObjectsList) {
 {
 
 
-gdjs.GameCode.userFunc0x36c4af8(runtimeScene);
+gdjs.GameCode.userFunc0x46ed878(runtimeScene);
 
 }
 
 
-};gdjs.GameCode.userFunc0x39b6338 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x8794090 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const source = runtimeScene.getObjects("TheirManor")[0];
 const text1 = runtimeScene.getObjects("beatmanortext1")[0];
@@ -168275,7 +168275,7 @@ gdjs.copyArray(runtimeScene.getObjects("TheirManor"), gdjs.GameCode.GDTheirManor
 {
 
 
-gdjs.GameCode.userFunc0x39b6338(runtimeScene);
+gdjs.GameCode.userFunc0x8794090(runtimeScene);
 
 }
 
@@ -488799,10 +488799,28 @@ gdjs.GameCode.eventsList4365(runtimeScene);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-isConditionTrue_0 = !(gdjs.evtTools.storage.elementExistsInJSONFile("TK", "ET"));
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(194).getAsNumber() <= 1);
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(213).getAsNumber() == 1);
+}
+}
 if (isConditionTrue_0) {
 {runtimeScene.getScene().getVariables().getFromIndex(68).setNumber(2000);
 }
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = !(gdjs.evtTools.storage.elementExistsInJSONFile("TK", "ET"));
+if (isConditionTrue_0) {
 
 { //Subevents
 gdjs.GameCode.eventsList4366(runtimeScene);} //End of subevents
@@ -498379,6 +498397,10 @@ if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Rank"), gdjs.GameCode.GDRankObjects4);
 gdjs.GameCode.GDLevelUpObjects4.length = 0;
 
+{for(var i = 0, len = gdjs.GameCode.GDRankObjects4.length ;i < len;++i) {
+    gdjs.GameCode.GDRankObjects4[i].getBehavior("Animation").setAnimationName("Main");
+}
+}
 {gdjs.evtTools.object.createObjectOnScene(runtimeScene, gdjs.GameCode.mapOfGDgdjs_9546GameCode_9546GDLevelUpObjects4Objects, 0, 0, "UI");
 }
 {for(var i = 0, len = gdjs.GameCode.GDLevelUpObjects4.length ;i < len;++i) {

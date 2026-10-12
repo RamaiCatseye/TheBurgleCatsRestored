@@ -19638,9 +19638,45 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(60).getAsNumber() == 40);
 }
 if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("InputText"), gdjs.HubCode.GDInputTextObjects4);
+{for(var i = 0, len = gdjs.HubCode.GDInputTextObjects4.length ;i < len;++i) {
+    gdjs.HubCode.GDInputTextObjects4[i].getBehavior("Text").setText("YTWVWTY02060900406040X0060000016T0U9SNever Forget");
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(60).getAsNumber() == 41);
+}
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("InputText"), gdjs.HubCode.GDInputTextObjects4);
+{for(var i = 0, len = gdjs.HubCode.GDInputTextObjects4.length ;i < len;++i) {
+    gdjs.HubCode.GDInputTextObjects4[i].getBehavior("Text").setText("0A8F00000009F00G9F600B60000000H607C35Déjà vu?");
+}
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getScene().getVariables().getFromIndex(60).getAsNumber() == 42);
+}
+if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("InputText"), gdjs.HubCode.GDInputTextObjects3);
 {for(var i = 0, len = gdjs.HubCode.GDInputTextObjects3.length ;i < len;++i) {
-    gdjs.HubCode.GDInputTextObjects3[i].getBehavior("Text").setText("YTWVWTY02060900406040X0060000016T0U9SNever Forget");
+    gdjs.HubCode.GDInputTextObjects3[i].getBehavior("Text").setText("0000R00WP100S0000ON30N0QW40NV0WQ1W05MPhantom");
 }
 }
 }
@@ -24869,7 +24905,7 @@ for (var i = 0, k = 0, l = gdjs.HubCode.GDObjectDataObjects3.length;i<l;++i) {
 }
 gdjs.HubCode.GDObjectDataObjects3.length = k;
 if (isConditionTrue_0) {
-{runtimeScene.getScene().getVariables().getFromIndex(60).setNumber(gdjs.randomInRange(1, 40));
+{runtimeScene.getScene().getVariables().getFromIndex(60).setNumber(gdjs.randomInRange(1, 42));
 }
 
 { //Subevents
@@ -25539,7 +25575,7 @@ if (isConditionTrue_0) {
 };gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects2Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects2});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects2Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects2});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDEventManorObjects2Objects = Hashtable.newFrom({"EventManor": gdjs.HubCode.GDEventManorObjects2});
-gdjs.HubCode.userFunc0x8eb4848 = function GDJSInlineCode(runtimeScene) {
+gdjs.HubCode.userFunc0x929e518 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const day = new Date().getDay();
 runtimeScene.getVariables().get("Day").setNumber(day);
@@ -25576,7 +25612,7 @@ gdjs.copyArray(runtimeScene.getObjects("LoadManor"), gdjs.HubCode.GDLoadManorObj
 {
 
 
-gdjs.HubCode.userFunc0x8eb4848(runtimeScene);
+gdjs.HubCode.userFunc0x929e518(runtimeScene);
 
 }
 
@@ -26846,7 +26882,7 @@ gdjs.HubCode.eventsList143(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.HubCode.userFunc0xe0b3a28 = function GDJSInlineCode(runtimeScene) {
+};gdjs.HubCode.userFunc0xd316c38 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const day = new Date().getDay();
 runtimeScene.getVariables().get("Day").setNumber(day);
@@ -26856,7 +26892,7 @@ gdjs.HubCode.eventsList145 = function(runtimeScene) {
 {
 
 
-gdjs.HubCode.userFunc0xe0b3a28(runtimeScene);
+gdjs.HubCode.userFunc0xd316c38(runtimeScene);
 
 }
 
@@ -27254,7 +27290,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.HubCode.userFunc0x43c7140 = function GDJSInlineCode(runtimeScene) {
+};gdjs.HubCode.userFunc0x5dc5c20 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // GDevelop JS Event: VALID → THEN SHIFT
@@ -27423,12 +27459,12 @@ gdjs.HubCode.eventsList151 = function(runtimeScene) {
 {
 
 
-gdjs.HubCode.userFunc0x43c7140(runtimeScene);
+gdjs.HubCode.userFunc0x5dc5c20(runtimeScene);
 
 }
 
 
-};gdjs.HubCode.userFunc0xd42c1e8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.HubCode.userFunc0x1c42678 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // GDevelop JS Event: VALID → THEN SHIFT (SAFE + FIXED)
@@ -27594,7 +27630,7 @@ gdjs.HubCode.eventsList152 = function(runtimeScene) {
 {
 
 
-gdjs.HubCode.userFunc0xd42c1e8(runtimeScene);
+gdjs.HubCode.userFunc0x1c42678(runtimeScene);
 
 }
 
@@ -27748,7 +27784,7 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.HubCode.userFunc0x8f3f250 = function GDJSInlineCode(runtimeScene) {
+};gdjs.HubCode.userFunc0x9246490 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // GDevelop JS Event: Dual Code Loader (Old + New, FIXED USERNAME & EVENT VARS, NEW MODE 0-5)
@@ -28312,7 +28348,7 @@ let isConditionTrue_0 = false;
 {
 
 
-gdjs.HubCode.userFunc0x8f3f250(runtimeScene);
+gdjs.HubCode.userFunc0x9246490(runtimeScene);
 
 }
 
@@ -36700,7 +36736,7 @@ gdjs.HubCode.eventsList202(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.HubCode.userFunc0x9109a30 = function GDJSInlineCode(runtimeScene) {
+};gdjs.HubCode.userFunc0x3818d30 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // GDevelop JS Event: Generate Encrypted Layout Code + Username
@@ -38199,7 +38235,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.HubCode.userFunc0x9109a30(runtimeScene);
+gdjs.HubCode.userFunc0x3818d30(runtimeScene);
 
 }
 
@@ -38443,7 +38479,7 @@ if (isConditionTrue_0) {
 };gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects3Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects3});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects3Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects3});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDSaveObjects3Objects = Hashtable.newFrom({"Save": gdjs.HubCode.GDSaveObjects3});
-gdjs.HubCode.userFunc0x4ff45f0 = function GDJSInlineCode(runtimeScene) {
+gdjs.HubCode.userFunc0x625e640 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // Copy DisplayText object string to clipboard
@@ -38546,7 +38582,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.HubCode.userFunc0x4ff45f0(runtimeScene);
+gdjs.HubCode.userFunc0x625e640(runtimeScene);
 
 }
 
@@ -38554,7 +38590,7 @@ gdjs.HubCode.userFunc0x4ff45f0(runtimeScene);
 };gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects3Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects3});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDbuttonpressObjects3Objects = Hashtable.newFrom({"buttonpress": gdjs.HubCode.GDbuttonpressObjects3});
 gdjs.HubCode.mapOfGDgdjs_9546HubCode_9546GDSaveObjects3Objects = Hashtable.newFrom({"Save": gdjs.HubCode.GDSaveObjects3});
-gdjs.HubCode.userFunc0x2292188 = function GDJSInlineCode(runtimeScene) {
+gdjs.HubCode.userFunc0x1864e50 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // ----------------------------
 // GDevelop JS Event: Generate Encrypted Layout Code + Username
@@ -39625,7 +39661,7 @@ if (isConditionTrue_0) {
 {
 
 
-gdjs.HubCode.userFunc0x2292188(runtimeScene);
+gdjs.HubCode.userFunc0x1864e50(runtimeScene);
 
 }
 
