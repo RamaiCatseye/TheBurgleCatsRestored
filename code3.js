@@ -91,7 +91,7 @@ gdjs.EnterLeaugeCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(223).getAsNumber() == 0);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(224).getAsNumber() == 0);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "me_001.ogg", -4, false, 60, 1);
@@ -101,13 +101,13 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.EnterLeaugeCode.asyncCallback141705908 = function (runtimeScene, asyncObjectsList) {
+};gdjs.EnterLeaugeCode.asyncCallback141706652 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.EnterLeaugeCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Hub", false);
 }
 gdjs.EnterLeaugeCode.localVariables.length = 0;
 }
-gdjs.EnterLeaugeCode.idToCallbackMap.set(141705908, gdjs.EnterLeaugeCode.asyncCallback141705908);
+gdjs.EnterLeaugeCode.idToCallbackMap.set(141706652, gdjs.EnterLeaugeCode.asyncCallback141706652);
 gdjs.EnterLeaugeCode.eventsList1 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -118,14 +118,14 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.EnterLeaugeCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.EnterLeaugeCode.asyncCallback141705908(runtimeScene, asyncObjectsList)), 141705908, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.EnterLeaugeCode.asyncCallback141706652(runtimeScene, asyncObjectsList)), 141706652, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.EnterLeaugeCode.asyncCallback141704284 = function (runtimeScene, asyncObjectsList) {
+};gdjs.EnterLeaugeCode.asyncCallback141705028 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.EnterLeaugeCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Leauge"), gdjs.EnterLeaugeCode.GDLeaugeObjects2);
 
@@ -144,7 +144,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("TapAnywhere"), gdjs.EnterLeaugeCode.
 gdjs.EnterLeaugeCode.eventsList1(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.EnterLeaugeCode.localVariables.length = 0;
 }
-gdjs.EnterLeaugeCode.idToCallbackMap.set(141704284, gdjs.EnterLeaugeCode.asyncCallback141704284);
+gdjs.EnterLeaugeCode.idToCallbackMap.set(141705028, gdjs.EnterLeaugeCode.asyncCallback141705028);
 gdjs.EnterLeaugeCode.eventsList2 = function(runtimeScene) {
 
 {
@@ -156,7 +156,7 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.EnterLeaugeCode.localVariables);
 for (const obj of gdjs.EnterLeaugeCode.GDLeaugeObjects1) asyncObjectsList.addObject("Leauge", obj);
 for (const obj of gdjs.EnterLeaugeCode.GDTapAnywhereObjects1) asyncObjectsList.addObject("TapAnywhere", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.EnterLeaugeCode.asyncCallback141704284(runtimeScene, asyncObjectsList)), 141704284, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.EnterLeaugeCode.asyncCallback141705028(runtimeScene, asyncObjectsList)), 141705028, asyncObjectsList);
 }
 }
 
@@ -170,7 +170,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(223).getAsNumber() == 0);
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(224).getAsNumber() == 0);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "se_004.mp3", false, 100, 1);
@@ -211,7 +211,7 @@ gdjs.EnterLeaugeCode.eventsList2(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141698636);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141699380);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("TapAnywhere"), gdjs.EnterLeaugeCode.GDTapAnywhereObjects2);
@@ -268,7 +268,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.wasKeyReleased(runtimeScene, "f"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141711436);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141712180);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -291,7 +291,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.wasKeyReleased(runtimeScene, "Escape"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141712412);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141713156);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -313,7 +313,7 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141688420);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141689164);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Leauge"), gdjs.EnterLeaugeCode.GDLeaugeObjects1);
@@ -362,7 +362,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "flash") >= 0.7;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141706748);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141707492);
 }
 }
 if (isConditionTrue_0) {
@@ -384,7 +384,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "flash") >= 1.4;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141708508);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141709252);
 }
 }
 if (isConditionTrue_0) {
@@ -405,7 +405,7 @@ gdjs.copyArray(runtimeScene.getObjects("TapAnywhere"), gdjs.EnterLeaugeCode.GDTa
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141707948);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141708692);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.setGlobalVolume(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(191)));
