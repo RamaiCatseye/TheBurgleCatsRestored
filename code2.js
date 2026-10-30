@@ -37905,7 +37905,7 @@ gdjs.GameCode.eventsList353(runtimeScene);} //End of subevents
 
 
 };gdjs.GameCode.mapOfEmptyGDtrafficObjects = Hashtable.newFrom({"traffic": []});
-gdjs.GameCode.userFunc0xdcdd0d8 = function GDJSInlineCode(runtimeScene) {
+gdjs.GameCode.userFunc0x692a360 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.getTimeManager().getTimer("traffic").setTime(4600);
 };
@@ -37914,7 +37914,7 @@ gdjs.GameCode.eventsList355 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0xdcdd0d8(runtimeScene);
+gdjs.GameCode.userFunc0x692a360(runtimeScene);
 
 }
 
@@ -169168,7 +169168,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25
 }
 
 
-};gdjs.GameCode.userFunc0x4f50ab8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x6b4d4a8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const source = runtimeScene.getObjects("TheirManor")[0];
 const text1 = runtimeScene.getObjects("beatmanortext1")[0];
@@ -169197,12 +169197,12 @@ gdjs.GameCode.eventsList2028 = function(runtimeScene, asyncObjectsList) {
 {
 
 
-gdjs.GameCode.userFunc0x4f50ab8(runtimeScene);
+gdjs.GameCode.userFunc0x6b4d4a8(runtimeScene);
 
 }
 
 
-};gdjs.GameCode.userFunc0x5e67be0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0xde535b8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const source = runtimeScene.getObjects("TheirManor")[0];
 const text1 = runtimeScene.getObjects("beatmanortext1")[0];
@@ -169247,7 +169247,7 @@ gdjs.copyArray(runtimeScene.getObjects("TheirManor"), gdjs.GameCode.GDTheirManor
 {
 
 
-gdjs.GameCode.userFunc0x5e67be0(runtimeScene);
+gdjs.GameCode.userFunc0xde535b8(runtimeScene);
 
 }
 
@@ -516063,7 +516063,69 @@ gdjs.copyArray(runtimeScene.getObjects("Victory"), gdjs.GameCode.GDVictoryObject
 }
 
 
-};gdjs.GameCode.eventsList4723 = function(runtimeScene) {
+};gdjs.GameCode.userFunc0x6e212d0 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+// Audio focus control — EXdata.Variable(Volume)
+
+const setup = runtimeScene.getVariables()
+    .get("FocusAudioSetup");
+
+if (!setup.getAsBoolean()) {
+    setup.setBoolean(true);
+
+    let windowFocused = true;
+    let wasActive = null;
+
+    const updateAudio = () => {
+        const active =
+            windowFocused &&
+            document.visibilityState === "visible";
+
+        if (active === wasActive) return;
+        wasActive = active;
+
+        if (!active) {
+            runtimeScene.getGame()
+                .getSoundManager()
+                .setGlobalVolume(0);
+            return;
+        }
+
+        const exdata = runtimeScene.getObjects("EXdata")[0];
+        if (!exdata) return;
+
+        const volume = exdata.getVariables()
+            .get("Volume").getAsNumber();
+
+        runtimeScene.getGame()
+            .getSoundManager()
+            .setGlobalVolume(volume);
+    };
+
+    window.addEventListener("blur", () => {
+        windowFocused = false;
+        updateAudio();
+    });
+
+    window.addEventListener("focus", () => {
+        windowFocused = true;
+        updateAudio();
+    });
+
+    document.addEventListener("visibilitychange", updateAudio);
+
+    updateAudio();
+}
+};
+gdjs.GameCode.eventsList4723 = function(runtimeScene) {
+
+{
+
+
+gdjs.GameCode.userFunc0x6e212d0(runtimeScene);
+
+}
+
 
 };gdjs.GameCode.eventsList4724 = function(runtimeScene) {
 

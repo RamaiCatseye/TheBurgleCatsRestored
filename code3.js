@@ -264,7 +264,67 @@ gdjs.EnterLeaugeCode.eventsList3(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.EnterLeaugeCode.eventsList5 = function(runtimeScene) {
+};gdjs.EnterLeaugeCode.userFunc0xe2ee600 = function GDJSInlineCode(runtimeScene) {
+"use strict";
+// Audio focus control — GlobalVariable(MuteValue)
+
+const setup = runtimeScene.getVariables()
+    .get("FocusAudioSetup2");
+
+if (!setup.getAsBoolean()) {
+    setup.setBoolean(true);
+
+    let windowFocused = true;
+    let wasActive = null;
+
+    const updateAudio = () => {
+        const active =
+            windowFocused &&
+            document.visibilityState === "visible";
+
+        if (active === wasActive) return;
+        wasActive = active;
+
+        const sound = runtimeScene.getGame()
+            .getSoundManager();
+
+        if (!active) {
+            sound.setGlobalVolume(0);
+            return;
+        }
+
+        const volume = runtimeScene.getGame()
+            .getVariables()
+            .get("MuteValue")
+            .getAsNumber();
+
+        sound.setGlobalVolume(volume);
+    };
+
+    window.addEventListener("blur", () => {
+        windowFocused = false;
+        updateAudio();
+    });
+
+    window.addEventListener("focus", () => {
+        windowFocused = true;
+        updateAudio();
+    });
+
+    document.addEventListener("visibilitychange", updateAudio);
+
+    updateAudio();
+}
+};
+gdjs.EnterLeaugeCode.eventsList5 = function(runtimeScene) {
+
+{
+
+
+gdjs.EnterLeaugeCode.userFunc0xe2ee600(runtimeScene);
+
+}
+
 
 {
 
