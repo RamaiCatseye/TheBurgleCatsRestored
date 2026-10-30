@@ -82,6 +82,12 @@ gdjs.EnterLeaugeCode.GDSkillWhatVSObjects3= [];
 gdjs.EnterLeaugeCode.GDDebuffVSObjects1= [];
 gdjs.EnterLeaugeCode.GDDebuffVSObjects2= [];
 gdjs.EnterLeaugeCode.GDDebuffVSObjects3= [];
+gdjs.EnterLeaugeCode.GDtutorialboxObjects1= [];
+gdjs.EnterLeaugeCode.GDtutorialboxObjects2= [];
+gdjs.EnterLeaugeCode.GDtutorialboxObjects3= [];
+gdjs.EnterLeaugeCode.GDtutorialinfoObjects1= [];
+gdjs.EnterLeaugeCode.GDtutorialinfoObjects2= [];
+gdjs.EnterLeaugeCode.GDtutorialinfoObjects3= [];
 
 
 gdjs.EnterLeaugeCode.eventsList0 = function(runtimeScene) {
@@ -101,13 +107,13 @@ if (isConditionTrue_0) {
 }
 
 
-};gdjs.EnterLeaugeCode.asyncCallback141706652 = function (runtimeScene, asyncObjectsList) {
+};gdjs.EnterLeaugeCode.asyncCallback174474836 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.EnterLeaugeCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Hub", false);
 }
 gdjs.EnterLeaugeCode.localVariables.length = 0;
 }
-gdjs.EnterLeaugeCode.idToCallbackMap.set(141706652, gdjs.EnterLeaugeCode.asyncCallback141706652);
+gdjs.EnterLeaugeCode.idToCallbackMap.set(174474836, gdjs.EnterLeaugeCode.asyncCallback174474836);
 gdjs.EnterLeaugeCode.eventsList1 = function(runtimeScene, asyncObjectsList) {
 
 {
@@ -118,25 +124,25 @@ const parentAsyncObjectsList = asyncObjectsList;
 {
 const asyncObjectsList = gdjs.LongLivedObjectsList.from(parentAsyncObjectsList);
 asyncObjectsList.backupLocalVariablesContainers(gdjs.EnterLeaugeCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.EnterLeaugeCode.asyncCallback141706652(runtimeScene, asyncObjectsList)), 141706652, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.EnterLeaugeCode.asyncCallback174474836(runtimeScene, asyncObjectsList)), 174474836, asyncObjectsList);
 }
 }
 
 }
 
 
-};gdjs.EnterLeaugeCode.asyncCallback141705028 = function (runtimeScene, asyncObjectsList) {
+};gdjs.EnterLeaugeCode.asyncCallback174470372 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.EnterLeaugeCode.localVariables);
 gdjs.copyArray(asyncObjectsList.getObjects("Leauge"), gdjs.EnterLeaugeCode.GDLeaugeObjects2);
 
 gdjs.copyArray(asyncObjectsList.getObjects("TapAnywhere"), gdjs.EnterLeaugeCode.GDTapAnywhereObjects2);
 
 {for(var i = 0, len = gdjs.EnterLeaugeCode.GDLeaugeObjects2.length ;i < len;++i) {
-    gdjs.EnterLeaugeCode.GDLeaugeObjects2[i].getBehavior("Tween").addObjectOpacityTween3("Opacity", "O", 0, "linear", 0.4, false);
+    gdjs.EnterLeaugeCode.GDLeaugeObjects2[i].getBehavior("Tween").addObjectOpacityTween3("Opacity", "O", 0, runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), 0.4, false);
 }
 }
 {for(var i = 0, len = gdjs.EnterLeaugeCode.GDTapAnywhereObjects2.length ;i < len;++i) {
-    gdjs.EnterLeaugeCode.GDTapAnywhereObjects2[i].getBehavior("Tween").addObjectOpacityTween3("Opacity", "O", 0, "linear", 0.4, false);
+    gdjs.EnterLeaugeCode.GDTapAnywhereObjects2[i].getBehavior("Tween").addObjectOpacityTween3("Opacity", "O", 0, runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), 0.4, false);
 }
 }
 
@@ -144,7 +150,7 @@ gdjs.copyArray(asyncObjectsList.getObjects("TapAnywhere"), gdjs.EnterLeaugeCode.
 gdjs.EnterLeaugeCode.eventsList1(runtimeScene, asyncObjectsList);} //End of subevents
 gdjs.EnterLeaugeCode.localVariables.length = 0;
 }
-gdjs.EnterLeaugeCode.idToCallbackMap.set(141705028, gdjs.EnterLeaugeCode.asyncCallback141705028);
+gdjs.EnterLeaugeCode.idToCallbackMap.set(174470372, gdjs.EnterLeaugeCode.asyncCallback174470372);
 gdjs.EnterLeaugeCode.eventsList2 = function(runtimeScene) {
 
 {
@@ -156,7 +162,7 @@ const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.EnterLeaugeCode.localVariables);
 for (const obj of gdjs.EnterLeaugeCode.GDLeaugeObjects1) asyncObjectsList.addObject("Leauge", obj);
 for (const obj of gdjs.EnterLeaugeCode.GDTapAnywhereObjects1) asyncObjectsList.addObject("TapAnywhere", obj);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.EnterLeaugeCode.asyncCallback141705028(runtimeScene, asyncObjectsList)), 141705028, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.EnterLeaugeCode.asyncCallback174470372(runtimeScene, asyncObjectsList)), 174470372, asyncObjectsList);
 }
 }
 
@@ -211,14 +217,14 @@ gdjs.EnterLeaugeCode.eventsList2(runtimeScene);} //End of subevents
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141699380);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(174468068);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("TapAnywhere"), gdjs.EnterLeaugeCode.GDTapAnywhereObjects2);
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "flash");
 }
 {for(var i = 0, len = gdjs.EnterLeaugeCode.GDTapAnywhereObjects2.length ;i < len;++i) {
-    gdjs.EnterLeaugeCode.GDTapAnywhereObjects2[i].getBehavior("Tween").addObjectOpacityTween3("Opacity", "O", 255, "linear", 0.7, false);
+    gdjs.EnterLeaugeCode.GDTapAnywhereObjects2[i].getBehavior("Tween").addObjectOpacityTween3("Opacity", "O", 255, runtimeScene.getGame().getNamedEasingsManager().resolve("linear", ""), 0.7, false);
 }
 }
 }
@@ -268,7 +274,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.wasKeyReleased(runtimeScene, "f"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141712180);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(174478212);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -291,7 +297,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = !(gdjs.evtTools.input.wasKeyReleased(runtimeScene, "Escape"));
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141713156);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(174482580);
 }
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
@@ -313,16 +319,16 @@ if (isConditionTrue_0) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141689164);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(174471924);
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Leauge"), gdjs.EnterLeaugeCode.GDLeaugeObjects1);
 {for(var i = 0, len = gdjs.EnterLeaugeCode.GDLeaugeObjects1.length ;i < len;++i) {
-    gdjs.EnterLeaugeCode.GDLeaugeObjects1[i].getBehavior("Tween").addObjectOpacityTween3("Opacity", "O", 255, "easeOutSine", 0.6, false);
+    gdjs.EnterLeaugeCode.GDLeaugeObjects1[i].getBehavior("Tween").addObjectOpacityTween3("Opacity", "O", 255, runtimeScene.getGame().getNamedEasingsManager().resolve("easeOutSine", ""), 0.6, false);
 }
 }
 {for(var i = 0, len = gdjs.EnterLeaugeCode.GDLeaugeObjects1.length ;i < len;++i) {
-    gdjs.EnterLeaugeCode.GDLeaugeObjects1[i].getBehavior("Tween").addObjectPositionYTween2("Y", 335, "easeOutSine", 0.6, false);
+    gdjs.EnterLeaugeCode.GDLeaugeObjects1[i].getBehavior("Tween").addObjectPositionYTween2("Y", 335, runtimeScene.getGame().getNamedEasingsManager().resolve("easeOutSine", ""), 0.6, false);
 }
 }
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "go");
@@ -362,13 +368,13 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "flash") >= 0.7;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141707492);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(174475844);
 }
 }
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("TapAnywhere"), gdjs.EnterLeaugeCode.GDTapAnywhereObjects1);
 {for(var i = 0, len = gdjs.EnterLeaugeCode.GDTapAnywhereObjects1.length ;i < len;++i) {
-    gdjs.EnterLeaugeCode.GDTapAnywhereObjects1[i].getBehavior("Tween").addObjectOpacityTween3("Opacity", "O", 150, "easeInOutQuad", 0.7, false);
+    gdjs.EnterLeaugeCode.GDTapAnywhereObjects1[i].getBehavior("Tween").addObjectOpacityTween3("Opacity", "O", 150, runtimeScene.getGame().getNamedEasingsManager().resolve("easeInOutQuad", ""), 0.7, false);
 }
 }
 }
@@ -384,7 +390,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "flash") >= 1.4;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141709252);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(174477428);
 }
 }
 if (isConditionTrue_0) {
@@ -392,7 +398,7 @@ gdjs.copyArray(runtimeScene.getObjects("TapAnywhere"), gdjs.EnterLeaugeCode.GDTa
 {gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "flash");
 }
 {for(var i = 0, len = gdjs.EnterLeaugeCode.GDTapAnywhereObjects1.length ;i < len;++i) {
-    gdjs.EnterLeaugeCode.GDTapAnywhereObjects1[i].getBehavior("Tween").addObjectOpacityTween3("Opacity", "O", 255, "easeInOutQuad", 0.7, false);
+    gdjs.EnterLeaugeCode.GDTapAnywhereObjects1[i].getBehavior("Tween").addObjectOpacityTween3("Opacity", "O", 255, runtimeScene.getGame().getNamedEasingsManager().resolve("easeInOutQuad", ""), 0.7, false);
 }
 }
 }
@@ -405,7 +411,7 @@ gdjs.copyArray(runtimeScene.getObjects("TapAnywhere"), gdjs.EnterLeaugeCode.GDTa
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(141708692);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(174478948);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.setGlobalVolume(runtimeScene, gdjs.evtTools.variable.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(191)));
@@ -516,6 +522,12 @@ gdjs.EnterLeaugeCode.GDSkillWhatVSObjects3.length = 0;
 gdjs.EnterLeaugeCode.GDDebuffVSObjects1.length = 0;
 gdjs.EnterLeaugeCode.GDDebuffVSObjects2.length = 0;
 gdjs.EnterLeaugeCode.GDDebuffVSObjects3.length = 0;
+gdjs.EnterLeaugeCode.GDtutorialboxObjects1.length = 0;
+gdjs.EnterLeaugeCode.GDtutorialboxObjects2.length = 0;
+gdjs.EnterLeaugeCode.GDtutorialboxObjects3.length = 0;
+gdjs.EnterLeaugeCode.GDtutorialinfoObjects1.length = 0;
+gdjs.EnterLeaugeCode.GDtutorialinfoObjects2.length = 0;
+gdjs.EnterLeaugeCode.GDtutorialinfoObjects3.length = 0;
 
 gdjs.EnterLeaugeCode.eventsList6(runtimeScene);
 gdjs.EnterLeaugeCode.GDLeaugeObjects1.length = 0;
@@ -599,6 +611,12 @@ gdjs.EnterLeaugeCode.GDSkillWhatVSObjects3.length = 0;
 gdjs.EnterLeaugeCode.GDDebuffVSObjects1.length = 0;
 gdjs.EnterLeaugeCode.GDDebuffVSObjects2.length = 0;
 gdjs.EnterLeaugeCode.GDDebuffVSObjects3.length = 0;
+gdjs.EnterLeaugeCode.GDtutorialboxObjects1.length = 0;
+gdjs.EnterLeaugeCode.GDtutorialboxObjects2.length = 0;
+gdjs.EnterLeaugeCode.GDtutorialboxObjects3.length = 0;
+gdjs.EnterLeaugeCode.GDtutorialinfoObjects1.length = 0;
+gdjs.EnterLeaugeCode.GDtutorialinfoObjects2.length = 0;
+gdjs.EnterLeaugeCode.GDtutorialinfoObjects3.length = 0;
 
 
 return;

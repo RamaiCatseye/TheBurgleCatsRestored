@@ -51,6 +51,10 @@ gdjs.HubResetCode.GDSkillWhatVSObjects1= [];
 gdjs.HubResetCode.GDSkillWhatVSObjects2= [];
 gdjs.HubResetCode.GDDebuffVSObjects1= [];
 gdjs.HubResetCode.GDDebuffVSObjects2= [];
+gdjs.HubResetCode.GDtutorialboxObjects1= [];
+gdjs.HubResetCode.GDtutorialboxObjects2= [];
+gdjs.HubResetCode.GDtutorialinfoObjects1= [];
+gdjs.HubResetCode.GDtutorialinfoObjects2= [];
 
 
 gdjs.HubResetCode.eventsList0 = function(runtimeScene) {
@@ -122,6 +126,10 @@ gdjs.HubResetCode.GDSkillWhatVSObjects1.length = 0;
 gdjs.HubResetCode.GDSkillWhatVSObjects2.length = 0;
 gdjs.HubResetCode.GDDebuffVSObjects1.length = 0;
 gdjs.HubResetCode.GDDebuffVSObjects2.length = 0;
+gdjs.HubResetCode.GDtutorialboxObjects1.length = 0;
+gdjs.HubResetCode.GDtutorialboxObjects2.length = 0;
+gdjs.HubResetCode.GDtutorialinfoObjects1.length = 0;
+gdjs.HubResetCode.GDtutorialinfoObjects2.length = 0;
 
 gdjs.HubResetCode.eventsList0(runtimeScene);
 gdjs.HubResetCode.GDFadeObjects1.length = 0;
@@ -174,6 +182,10 @@ gdjs.HubResetCode.GDSkillWhatVSObjects1.length = 0;
 gdjs.HubResetCode.GDSkillWhatVSObjects2.length = 0;
 gdjs.HubResetCode.GDDebuffVSObjects1.length = 0;
 gdjs.HubResetCode.GDDebuffVSObjects2.length = 0;
+gdjs.HubResetCode.GDtutorialboxObjects1.length = 0;
+gdjs.HubResetCode.GDtutorialboxObjects2.length = 0;
+gdjs.HubResetCode.GDtutorialinfoObjects1.length = 0;
+gdjs.HubResetCode.GDtutorialinfoObjects2.length = 0;
 
 
 return;

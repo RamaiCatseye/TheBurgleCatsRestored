@@ -51,6 +51,10 @@ gdjs.ReloadCode.GDSkillWhatVSObjects1= [];
 gdjs.ReloadCode.GDSkillWhatVSObjects2= [];
 gdjs.ReloadCode.GDDebuffVSObjects1= [];
 gdjs.ReloadCode.GDDebuffVSObjects2= [];
+gdjs.ReloadCode.GDtutorialboxObjects1= [];
+gdjs.ReloadCode.GDtutorialboxObjects2= [];
+gdjs.ReloadCode.GDtutorialinfoObjects1= [];
+gdjs.ReloadCode.GDtutorialinfoObjects2= [];
 
 
 gdjs.ReloadCode.eventsList0 = function(runtimeScene) {
@@ -122,6 +126,10 @@ gdjs.ReloadCode.GDSkillWhatVSObjects1.length = 0;
 gdjs.ReloadCode.GDSkillWhatVSObjects2.length = 0;
 gdjs.ReloadCode.GDDebuffVSObjects1.length = 0;
 gdjs.ReloadCode.GDDebuffVSObjects2.length = 0;
+gdjs.ReloadCode.GDtutorialboxObjects1.length = 0;
+gdjs.ReloadCode.GDtutorialboxObjects2.length = 0;
+gdjs.ReloadCode.GDtutorialinfoObjects1.length = 0;
+gdjs.ReloadCode.GDtutorialinfoObjects2.length = 0;
 
 gdjs.ReloadCode.eventsList0(runtimeScene);
 gdjs.ReloadCode.GDFadeObjects1.length = 0;
@@ -174,6 +182,10 @@ gdjs.ReloadCode.GDSkillWhatVSObjects1.length = 0;
 gdjs.ReloadCode.GDSkillWhatVSObjects2.length = 0;
 gdjs.ReloadCode.GDDebuffVSObjects1.length = 0;
 gdjs.ReloadCode.GDDebuffVSObjects2.length = 0;
+gdjs.ReloadCode.GDtutorialboxObjects1.length = 0;
+gdjs.ReloadCode.GDtutorialboxObjects2.length = 0;
+gdjs.ReloadCode.GDtutorialinfoObjects1.length = 0;
+gdjs.ReloadCode.GDtutorialinfoObjects2.length = 0;
 
 
 return;
