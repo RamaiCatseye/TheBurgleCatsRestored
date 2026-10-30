@@ -37859,7 +37859,7 @@ gdjs.GameCode.eventsList352(runtimeScene);} //End of subevents
 
 
 };gdjs.GameCode.mapOfEmptyGDtrafficObjects = Hashtable.newFrom({"traffic": []});
-gdjs.GameCode.userFunc0x1b6d558 = function GDJSInlineCode(runtimeScene) {
+gdjs.GameCode.userFunc0x3cadf68 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.getTimeManager().getTimer("traffic").setTime(4600);
 };
@@ -37868,7 +37868,7 @@ gdjs.GameCode.eventsList354 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x1b6d558(runtimeScene);
+gdjs.GameCode.userFunc0x3cadf68(runtimeScene);
 
 }
 
@@ -169063,7 +169063,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25
 }
 
 
-};gdjs.GameCode.userFunc0xbf10a0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x2e7fa48 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const source = runtimeScene.getObjects("TheirManor")[0];
 const text1 = runtimeScene.getObjects("beatmanortext1")[0];
@@ -169092,12 +169092,12 @@ gdjs.GameCode.eventsList2026 = function(runtimeScene, asyncObjectsList) {
 {
 
 
-gdjs.GameCode.userFunc0xbf10a0(runtimeScene);
+gdjs.GameCode.userFunc0x2e7fa48(runtimeScene);
 
 }
 
 
-};gdjs.GameCode.userFunc0x8fcebe0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x4b557a8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const source = runtimeScene.getObjects("TheirManor")[0];
 const text1 = runtimeScene.getObjects("beatmanortext1")[0];
@@ -169142,7 +169142,7 @@ gdjs.copyArray(runtimeScene.getObjects("TheirManor"), gdjs.GameCode.GDTheirManor
 {
 
 
-gdjs.GameCode.userFunc0x8fcebe0(runtimeScene);
+gdjs.GameCode.userFunc0x4b557a8(runtimeScene);
 
 }
 
@@ -515884,45 +515884,6 @@ gdjs.copyArray(runtimeScene.getObjects("Victory"), gdjs.GameCode.GDVictoryObject
 
 
 };gdjs.GameCode.eventsList4721 = function(runtimeScene) {
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.advancedWindow.isFocused(runtimeScene);
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(133599604);
-}
-}
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("EXdata"), gdjs.GameCode.GDEXdataObjects3);
-{gdjs.evtTools.sound.setGlobalVolume(runtimeScene, (gdjs.RuntimeObject.getVariableNumber(((gdjs.GameCode.GDEXdataObjects3.length === 0 ) ? gdjs.VariablesContainer.badVariablesContainer : gdjs.GameCode.GDEXdataObjects3[0].getVariables()).getFromIndex(0))));
-}
-}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = !(gdjs.evtTools.advancedWindow.isFocused(runtimeScene));
-if (isConditionTrue_0) {
-isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(133600420);
-}
-}
-if (isConditionTrue_0) {
-{gdjs.evtTools.sound.setGlobalVolume(runtimeScene, 0);
-}
-}
-
-}
-
 
 };gdjs.GameCode.eventsList4722 = function(runtimeScene) {
 
