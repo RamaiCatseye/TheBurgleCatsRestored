@@ -37859,7 +37859,7 @@ gdjs.GameCode.eventsList352(runtimeScene);} //End of subevents
 
 
 };gdjs.GameCode.mapOfEmptyGDtrafficObjects = Hashtable.newFrom({"traffic": []});
-gdjs.GameCode.userFunc0x9018768 = function GDJSInlineCode(runtimeScene) {
+gdjs.GameCode.userFunc0x4792880 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.getTimeManager().getTimer("traffic").setTime(4600);
 };
@@ -37868,7 +37868,7 @@ gdjs.GameCode.eventsList354 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x9018768(runtimeScene);
+gdjs.GameCode.userFunc0x4792880(runtimeScene);
 
 }
 
@@ -167275,8 +167275,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.1)
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = (gdjs.VariablesContainer.badVariable.getAsNumber() == 0);
-}
+isConditionTrue_0 = !(gdjs.evtTools.storage.elementExistsInJSONFile("Tutorial", "FakeVault"));
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("tutorialbox"), gdjs.GameCode.GDtutorialboxObjects4);
 gdjs.copyArray(runtimeScene.getObjects("tutorialinfo"), gdjs.GameCode.GDtutorialinfoObjects4);
@@ -167289,8 +167288,6 @@ gdjs.copyArray(runtimeScene.getObjects("tutorialinfo"), gdjs.GameCode.GDtutorial
 }
 }
 {gdjs.evtTools.storage.writeNumberInJSONFile("Tutorial", "FakeVault", 1);
-}
-{gdjs.VariablesContainer.badVariable.setNumber(1);
 }
 }
 
@@ -169063,7 +169060,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25
 }
 
 
-};gdjs.GameCode.userFunc0x3f9e818 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0xdcfb5e8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const source = runtimeScene.getObjects("TheirManor")[0];
 const text1 = runtimeScene.getObjects("beatmanortext1")[0];
@@ -169092,12 +169089,12 @@ gdjs.GameCode.eventsList2026 = function(runtimeScene, asyncObjectsList) {
 {
 
 
-gdjs.GameCode.userFunc0x3f9e818(runtimeScene);
+gdjs.GameCode.userFunc0xdcfb5e8(runtimeScene);
 
 }
 
 
-};gdjs.GameCode.userFunc0x10507d8 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x106d968 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const source = runtimeScene.getObjects("TheirManor")[0];
 const text1 = runtimeScene.getObjects("beatmanortext1")[0];
@@ -169142,7 +169139,7 @@ gdjs.copyArray(runtimeScene.getObjects("TheirManor"), gdjs.GameCode.GDTheirManor
 {
 
 
-gdjs.GameCode.userFunc0x10507d8(runtimeScene);
+gdjs.GameCode.userFunc0x106d968(runtimeScene);
 
 }
 
