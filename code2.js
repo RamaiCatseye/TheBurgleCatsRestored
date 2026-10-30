@@ -37905,7 +37905,7 @@ gdjs.GameCode.eventsList353(runtimeScene);} //End of subevents
 
 
 };gdjs.GameCode.mapOfEmptyGDtrafficObjects = Hashtable.newFrom({"traffic": []});
-gdjs.GameCode.userFunc0x915d678 = function GDJSInlineCode(runtimeScene) {
+gdjs.GameCode.userFunc0xdcdd0d8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.getTimeManager().getTimer("traffic").setTime(4600);
 };
@@ -37914,7 +37914,7 @@ gdjs.GameCode.eventsList355 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x915d678(runtimeScene);
+gdjs.GameCode.userFunc0xdcdd0d8(runtimeScene);
 
 }
 
@@ -169168,7 +169168,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25
 }
 
 
-};gdjs.GameCode.userFunc0x1d23a28 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x4f50ab8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const source = runtimeScene.getObjects("TheirManor")[0];
 const text1 = runtimeScene.getObjects("beatmanortext1")[0];
@@ -169197,12 +169197,12 @@ gdjs.GameCode.eventsList2028 = function(runtimeScene, asyncObjectsList) {
 {
 
 
-gdjs.GameCode.userFunc0x1d23a28(runtimeScene);
+gdjs.GameCode.userFunc0x4f50ab8(runtimeScene);
 
 }
 
 
-};gdjs.GameCode.userFunc0x3bfdcd0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x5e67be0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const source = runtimeScene.getObjects("TheirManor")[0];
 const text1 = runtimeScene.getObjects("beatmanortext1")[0];
@@ -169247,7 +169247,7 @@ gdjs.copyArray(runtimeScene.getObjects("TheirManor"), gdjs.GameCode.GDTheirManor
 {
 
 
-gdjs.GameCode.userFunc0x3bfdcd0(runtimeScene);
+gdjs.GameCode.userFunc0x5e67be0(runtimeScene);
 
 }
 
