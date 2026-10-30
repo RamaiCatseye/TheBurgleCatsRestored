@@ -1382,7 +1382,7 @@ isConditionTrue_0 = false;
 }
 }
 if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(191).setNumber(100);
+{runtimeScene.getGame().getVariables().getFromIndex(191).setNumber(50);
 }
 }
 
