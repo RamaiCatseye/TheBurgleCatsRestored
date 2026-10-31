@@ -37937,7 +37937,7 @@ gdjs.GameCode.eventsList354(runtimeScene);} //End of subevents
 
 
 };gdjs.GameCode.mapOfEmptyGDtrafficObjects = Hashtable.newFrom({"traffic": []});
-gdjs.GameCode.userFunc0x2d7e240 = function GDJSInlineCode(runtimeScene) {
+gdjs.GameCode.userFunc0x76e3120 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.getTimeManager().getTimer("traffic").setTime(4600);
 };
@@ -37946,7 +37946,7 @@ gdjs.GameCode.eventsList356 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0x2d7e240(runtimeScene);
+gdjs.GameCode.userFunc0x76e3120(runtimeScene);
 
 }
 
@@ -169237,7 +169237,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.25
 }
 
 
-};gdjs.GameCode.userFunc0x6fd9e68 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0xdbddf90 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const source = runtimeScene.getObjects("TheirManor")[0];
 const text1 = runtimeScene.getObjects("beatmanortext1")[0];
@@ -169266,12 +169266,12 @@ gdjs.GameCode.eventsList2029 = function(runtimeScene, asyncObjectsList) {
 {
 
 
-gdjs.GameCode.userFunc0x6fd9e68(runtimeScene);
+gdjs.GameCode.userFunc0xdbddf90(runtimeScene);
 
 }
 
 
-};gdjs.GameCode.userFunc0x878be10 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0x85bf610 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 const source = runtimeScene.getObjects("TheirManor")[0];
 const text1 = runtimeScene.getObjects("beatmanortext1")[0];
@@ -169316,7 +169316,7 @@ gdjs.copyArray(runtimeScene.getObjects("TheirManor"), gdjs.GameCode.GDTheirManor
 {
 
 
-gdjs.GameCode.userFunc0x878be10(runtimeScene);
+gdjs.GameCode.userFunc0x85bf610(runtimeScene);
 
 }
 
@@ -516122,7 +516122,7 @@ gdjs.copyArray(runtimeScene.getObjects("Victory"), gdjs.GameCode.GDVictoryObject
 }
 
 
-};gdjs.GameCode.userFunc0xd8bcf90 = function GDJSInlineCode(runtimeScene) {
+};gdjs.GameCode.userFunc0xe35e6c8 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // Audio focus control — EXdata.Variable(Volume)
 
@@ -516196,7 +516196,7 @@ gdjs.GameCode.eventsList4724 = function(runtimeScene) {
 {
 
 
-gdjs.GameCode.userFunc0xd8bcf90(runtimeScene);
+gdjs.GameCode.userFunc0xe35e6c8(runtimeScene);
 
 }
 

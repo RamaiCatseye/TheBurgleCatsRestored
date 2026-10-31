@@ -264,7 +264,7 @@ gdjs.EnterLeaugeCode.eventsList3(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.EnterLeaugeCode.userFunc0xdf68570 = function GDJSInlineCode(runtimeScene) {
+};gdjs.EnterLeaugeCode.userFunc0xe016968 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // Audio focus control — GlobalVariable(MuteValue)
 
@@ -337,7 +337,7 @@ gdjs.EnterLeaugeCode.eventsList5 = function(runtimeScene) {
 {
 
 
-gdjs.EnterLeaugeCode.userFunc0xdf68570(runtimeScene);
+gdjs.EnterLeaugeCode.userFunc0xe016968(runtimeScene);
 
 }
 
