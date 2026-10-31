@@ -505,7 +505,7 @@ gdjs.MenuCode.eventsList4(runtimeScene);} //End of subevents
 }
 
 
-};gdjs.MenuCode.userFunc0xb943e0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.MenuCode.userFunc0x7f1b6f0 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 // Audio focus control — GlobalVariable(MuteValue)
 
@@ -578,7 +578,7 @@ gdjs.MenuCode.eventsList6 = function(runtimeScene) {
 {
 
 
-gdjs.MenuCode.userFunc0xb943e0(runtimeScene);
+gdjs.MenuCode.userFunc0x7f1b6f0(runtimeScene);
 
 }
 
